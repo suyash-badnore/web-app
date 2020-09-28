@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <script type="text/javascript">
+       function fun1(){
+    	   alert("Entered into javascript");
+    	   document.form.action = 'JavaScriptDemo';
+    	   document.form.submit();
+    	   
+       }
+    </script>
+</head>
+<body>
+   <form name ='form'>
+    
+       Select State:<select name ="s1" onChange="fun1()">
+       				<option value =''>Select</option>
+       				<option value ='Telangana'>Telangana</option>
+       				<option value ='Andrapradesh'>Andrapradesh</option>
+       				<option value ='Maharasta'>Maharasta</option>
+       				
+       </select>
+   
+   </form>
+</body>
+</html>
